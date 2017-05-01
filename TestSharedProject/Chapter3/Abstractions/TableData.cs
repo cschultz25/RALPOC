@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TaskList.Abstractions
+namespace TaskList3.Abstractions
 {
     public abstract class TableData
     {

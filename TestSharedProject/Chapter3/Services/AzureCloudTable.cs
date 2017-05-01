@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
 using Microsoft.WindowsAzure.MobileServices.Sync;
-using TaskList.Abstractions;
+using TaskList3.Abstractions;
 
-namespace TaskList.Services
+namespace TaskList3.Services
 {
     public class AzureCloudTable<T> : ICloudTable<T> where T : TableData
     {

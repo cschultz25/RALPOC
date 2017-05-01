@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace TaskList.Abstractions
+namespace TaskList3.Abstractions
 {
     public interface ICloudTable<T> where T : TableData
     {

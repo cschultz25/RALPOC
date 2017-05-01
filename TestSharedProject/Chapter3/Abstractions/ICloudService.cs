@@ -1,8 +1,8 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
-using TaskList.Models;
+using TaskList3.Models;
 
-namespace TaskList.Abstractions
+namespace TaskList3.Abstractions
 {
     public interface ICloudService
     {

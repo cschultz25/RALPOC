@@ -23,13 +23,14 @@
     <MtouchDebug>True</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchProfiling>false</MtouchProfiling>
     <IOSDebuggerPort>42723</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <IntermediateOutputPath>C:\Users\cschultz\AppData\Local\Temp\vs95D1.tmp\iPhoneSimulator\Debug\</IntermediateOutputPath>
     <IOSDebugOverWiFi>False</IOSDebugOverWiFi>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>

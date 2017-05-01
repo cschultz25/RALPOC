@@ -1,14 +1,14 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using TaskList.Abstractions;
-using TaskList.Helpers;
-using TaskList.Models;
+using TaskList3.Abstractions;
+using TaskList3.Helpers;
+using TaskList3.Models;
 using Xamarin.Forms;
 
-namespace TaskList.ViewModels
+namespace TaskList3.ViewModels
 {
     public class TagsListViewModel : BaseViewModel
     {
@@ -36,7 +36,7 @@ namespace TaskList.ViewModels
 
         private async Task NavigateToTasks()
         {
-            await Application.Current.MainPage.Navigation.PushAsync(new Pages.TaskList());
+            await Application.Current.MainPage.Navigation.PushAsync(new Pages.TaskList3());
         }
 
         public ICloudService CloudService => ServiceLocator.Get<ICloudService>();

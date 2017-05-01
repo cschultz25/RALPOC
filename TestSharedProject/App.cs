@@ -1,19 +1,32 @@
-﻿using TaskList.Abstractions;
-using TaskList.Services;
+using TaskList3.Abstractions;
+using TaskList3.Helpers;
+using TaskList3.Services;
 using Xamarin.Forms;
 
-namespace TaskList
+namespace TaskList3
 {
     public class App : Application
     {
-        public static ICloudService CloudService { get; set; }
 
-        public App()
-        {
-            CloudService = new AzureCloudService();
-            MainPage = new NavigationPage(new Pages.EntryPage());
-        }
+		public App()
+		{
+			ServiceLocator.Add<ICloudService, AzureCloudService>();
+			MainPage = new NavigationPage(new Pages.EntryPage());
+		}
 
-        // There are life cycle methods here...
+		protected override void OnStart()
+		{
+			// Handle when your app starts
+		}
+
+		protected override void OnSleep()
+		{
+			// Handle when your app sleeps
+		}
+
+		protected override void OnResume()
+		{
+			// Handle when your app resumes
+		}
     }
 }

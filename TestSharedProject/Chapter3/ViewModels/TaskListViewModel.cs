@@ -3,18 +3,18 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using TaskList.Abstractions;
-using TaskList.Helpers;
-using TaskList.Models;
+using TaskList3.Abstractions;
+using TaskList3.Helpers;
+using TaskList3.Models;
 using Xamarin.Forms;
 
-namespace TaskList.ViewModels
+namespace TaskList3.ViewModels
 {
-    public class TaskListViewModel : BaseViewModel
+    public class TaskList3ViewModel : BaseViewModel
     {
         bool hasMoreItems = true;
 
-        public TaskListViewModel()
+        public TaskList3ViewModel()
         {
             Title = "Task List";
 

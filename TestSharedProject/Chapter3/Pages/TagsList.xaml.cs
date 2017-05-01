@@ -1,6 +1,6 @@
-﻿using Xamarin.Forms;
+using Xamarin.Forms;
 
-namespace TaskList.Pages
+namespace TaskList3.Pages
 {
     public partial class TagsList : ContentPage
     {

@@ -27,7 +27,7 @@ namespace TaskList.iOS
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
 
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new TaskList3.App());
 
             return base.FinishedLaunching(app, options);
 		}

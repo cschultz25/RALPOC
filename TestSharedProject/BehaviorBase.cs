@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 
-namespace TaskList.Behaviors
+namespace TaskList3.Behaviors
 {
     public class BehaviorBase<T> : Behavior<T> where T : BindableObject
     {

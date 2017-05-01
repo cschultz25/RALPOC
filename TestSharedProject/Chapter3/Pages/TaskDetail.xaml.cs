@@ -1,7 +1,7 @@
-﻿using TaskList.ViewModels;
+﻿using TaskList3.ViewModels;
 using Xamarin.Forms;
 
-namespace TaskList.Pages
+namespace TaskList3.Pages
 {
     public partial class TaskDetail : ContentPage
     {

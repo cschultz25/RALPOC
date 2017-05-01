@@ -2,12 +2,12 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using TaskList.Abstractions;
-using TaskList.Helpers;
-using TaskList.Models;
+using TaskList3.Abstractions;
+using TaskList3.Helpers;
+using TaskList3.Models;
 using Xamarin.Forms;
 
-namespace TaskList.ViewModels
+namespace TaskList3.ViewModels
 {
     public class TaskDetailViewModel : BaseViewModel
     {

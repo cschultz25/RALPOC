@@ -1,13 +1,13 @@
-﻿using Xamarin.Forms;
+using Xamarin.Forms;
 
-namespace TaskList.Pages
+namespace TaskList3.Pages
 {
-    public partial class TaskList : ContentPage
+    public partial class TaskList3 : ContentPage
     {
-        public TaskList()
+        public TaskList3()
         {
             InitializeComponent();
-            BindingContext = new ViewModels.TaskListViewModel();
+            BindingContext = new ViewModels.TaskList3ViewModel();
         }
     }
 }

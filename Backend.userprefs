@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{D50A18B6-550E-40F1-B4F7-4B930AAB7596}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestSharedProject/Chapter3/Services/AzureCloudTable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSharedProject/Chapter3/Pages/TagsList.xaml">
     <Files>
-      <File FileName="iOS/Chapter3/iOSPlatform.cs" Line="12" Column="23" />
-      <File FileName="TestSharedProject/Chapter3/Services/AzureCloudService.cs" Line="49" Column="29" />
-      <File FileName="TestSharedProject/Chapter3/Services/AzureCloudTable.cs" Line="1" Column="1" />
+      <File FileName="TestSharedProject/Chapter3/Converters/ItemVisibilityConverter.cs" Line="1" Column="1" />
+      <File FileName="TestSharedProject/Chapter3/Pages/TagsList.xaml" Line="29" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,7 +10,9 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TaskList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5F2BF833-A357-4CFE-9C6A-EACD112E1C17" />
+  <MonoDevelop.Ide.ItemProperties.TaskList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5F2BF833-A357-4CFE-9C6A-EACD112E1C17">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="E2N442S936" TeamId="Z425ECNRMC" />
+  </MonoDevelop.Ide.ItemProperties.TaskList.iOS>
   <MultiItemStartupConfigurations />
   <DisabledProjects>
     <String>TaskList2/TaskList2.shproj</String>

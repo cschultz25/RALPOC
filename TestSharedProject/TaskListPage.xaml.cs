@@ -1,10 +1,10 @@
 ﻿using Xamarin.Forms;
 
-namespace TaskList
+namespace TaskList3
 {
-	public partial class TaskListPage : ContentPage
+	public partial class TaskList3Page : ContentPage
 	{
-		public TaskListPage()
+		public TaskList3Page()
 		{
 			InitializeComponent();
 		}

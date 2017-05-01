@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace TaskList.Models
+namespace TaskList3.Models
 {
     public class AppServiceIdentity
     {

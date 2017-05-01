@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace TaskList.Abstractions
+namespace TaskList3.Abstractions
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

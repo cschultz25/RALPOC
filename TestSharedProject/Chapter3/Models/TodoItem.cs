@@ -1,6 +1,6 @@
-﻿using TaskList.Abstractions;
+﻿using TaskList3.Abstractions;
 
-namespace TaskList.Models
+namespace TaskList3.Models
 {
     public class TodoItem : TableData
     {

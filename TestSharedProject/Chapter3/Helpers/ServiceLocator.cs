@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TaskList.Helpers
+namespace TaskList3.Helpers
 {
     public sealed class ServiceLocator
     {

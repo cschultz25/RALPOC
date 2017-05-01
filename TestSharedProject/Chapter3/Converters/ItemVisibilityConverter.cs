@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Globalization;
 using Xamarin.Forms;
 
-namespace TaskList.Converters
+namespace TaskList3.Converters
 {
     public class ItemVisibilityConverter : IValueConverter
     {

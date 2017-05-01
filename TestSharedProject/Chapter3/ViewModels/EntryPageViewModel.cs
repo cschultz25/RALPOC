@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
-using TaskList.Abstractions;
-using TaskList.Helpers;
+using TaskList3.Abstractions;
+using TaskList3.Helpers;
 using Xamarin.Forms;
 
-namespace TaskList.ViewModels
+namespace TaskList3.ViewModels
 {
     public class EntryPageViewModel : BaseViewModel
     {
@@ -34,7 +34,7 @@ namespace TaskList.ViewModels
             try
             {
                 await CloudService.LoginAsync();
-                Application.Current.MainPage = new NavigationPage(new Pages.TaskList());
+                Application.Current.MainPage = new NavigationPage(new Pages.TaskList3());
             }
             catch (Exception ex)
             {

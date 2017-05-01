@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
@@ -8,12 +8,12 @@ using Microsoft.WindowsAzure.MobileServices;
 using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using TaskList.Abstractions;
-using TaskList.Helpers;
-using TaskList.Models;
+using TaskList3.Abstractions;
+using TaskList3.Helpers;
+using TaskList3.Models;
 using Xamarin.Forms;
 
-namespace TaskList.Services
+namespace TaskList3.Services
 {
     public class AzureCloudService : ICloudService
     {

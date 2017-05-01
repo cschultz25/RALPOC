@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
 
-namespace TaskList.Abstractions
+namespace TaskList3.Abstractions
 {
     public interface IPlatform
     {
