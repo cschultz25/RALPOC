@@ -4,13 +4,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{5A09D8D6-6F9E-47D5-B3C5-E4AE04B25F38}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TaskList", "TaskList\TaskList.shproj", "{D5CE4458-6CEB-4C92-B6D9-E4B6D418237A}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TaskList1", "TaskList\TaskList1.shproj", "{D5CE4458-6CEB-4C92-B6D9-E4B6D418237A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskList.iOS", "iOS\TaskList.iOS.csproj", "{D50A18B6-550E-40F1-B4F7-4B930AAB7596}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskList.Droid", "Droid\TaskList.Droid.csproj", "{D6603E57-5879-4F54-8069-63CBF871E0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSharedProject", "TestSharedProject\TestSharedProject.csproj", "{B94BE7AC-211E-44DA-9780-F4EE7F927FC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskList3", "TestSharedProject\TaskList3.csproj", "{B94BE7AC-211E-44DA-9780-F4EE7F927FC9}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

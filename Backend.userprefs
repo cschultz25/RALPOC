@@ -1,22 +1,9 @@
 ﻿<Properties StartupConfiguration="{D50A18B6-550E-40F1-B4F7-4B930AAB7596}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskList/Chapter1/Pages/TaskList1.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSharedProject/Chapter3/Services/AzureCloudTable.cs">
     <Files>
-      <File FileName="TaskList/App.cs" Line="1" Column="1" />
-      <File FileName="TaskList/Chapter3/ViewModels/TagsListViewModel.cs" Line="66" Column="71" />
-      <File FileName="TestSharedProject/Chapter3/Abstractions/ICloudService.cs" Line="5" Column="32" />
-      <File FileName="TaskList/Chapter3/Pages/EntryPage1.xaml" Line="16" Column="15" />
-      <File FileName="TaskList/Chapter3/Pages/EntryPage1.xaml.cs" Line="14" Column="1" />
-      <File FileName="TaskList/Chapter3/Pages/TagDetail1.xaml" Line="25" Column="15" />
-      <File FileName="TaskList/Chapter3/Pages/TagDetail1.xaml.cs" Line="14" Column="1" />
-      <File FileName="TaskList/Chapter3/Pages/TagsList1.xaml" Line="102" Column="15" />
-      <File FileName="TaskList/Chapter3/Pages/TagsList1.xaml.cs" Line="14" Column="1" />
-      <File FileName="TaskList/Chapter3/Services/AzureCloudService.cs" Line="49" Column="51" />
-      <File FileName="TaskList/Chapter1/Pages/EntryPage1.xaml" Line="17" Column="15" />
-      <File FileName="TaskList/Chapter1/Pages/EntryPage1.xaml.cs" Line="8" Column="10" />
-      <File FileName="TaskList/Chapter1/Pages/TaskDetail1.xaml" Line="30" Column="15" />
-      <File FileName="TaskList/Chapter1/Pages/TaskDetail1.xaml.cs" Line="18" Column="1" />
-      <File FileName="TaskList/Chapter1/Pages/TaskList1.xaml" Line="73" Column="15" />
-      <File FileName="TaskList/Chapter1/Pages/TaskList1.xaml.cs" Line="17" Column="1" />
+      <File FileName="iOS/Chapter3/iOSPlatform.cs" Line="12" Column="23" />
+      <File FileName="TestSharedProject/Chapter3/Services/AzureCloudService.cs" Line="49" Column="29" />
+      <File FileName="TestSharedProject/Chapter3/Services/AzureCloudTable.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
