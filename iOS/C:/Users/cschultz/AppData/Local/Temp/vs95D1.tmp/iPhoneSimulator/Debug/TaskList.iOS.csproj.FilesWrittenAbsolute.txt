@@ -30,5 +30,7 @@
 /Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/Validation.dll
 /Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/PCLCrypto.dll
 /Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll
-/Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/TestSharedProject.dll
-/Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/TestSharedProject.dll.mdb
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/TaskList2.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/iOS/bin/iPhoneSimulator/Debug/TaskList2.dll.mdb

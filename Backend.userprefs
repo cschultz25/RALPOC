@@ -1,13 +1,30 @@
 ﻿<Properties StartupConfiguration="{D50A18B6-550E-40F1-B4F7-4B930AAB7596}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestSharedProject/Chapter3/Pages/TagsList.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="TestSharedProject/Chapter3/Converters/ItemVisibilityConverter.cs" Line="1" Column="1" />
-      <File FileName="TestSharedProject/Chapter3/Pages/TagsList.xaml" Line="29" Column="9" />
+      <File FileName="TaskList/Chapter2/Abstractions/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Chapter2/Services/iosLoginProvider.cs" Line="19" Column="31" />
+      <File FileName="iOS/AppDelegate.cs" Line="27" Column="42" />
+      <File FileName="TaskList/Chapter2/Services/AzureCloudService.cs" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter2/Services/AzureCloudTable.cs" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter2/app.config" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter2/packages.config" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter2/ViewModels/EntryPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter2/Helpers/AuthenticationDelegatingHandler.cs" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter2/Helpers/Locations.cs" Line="17" Column="107" />
+      <File FileName="iOS/Chapter3/iOSPlatform.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/EntryPageViewModel.cs" relfile="TestSharedProject/ViewModels/EntryPageViewModel.cs" line="41" column="1" />
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/TagsListViewModel.cs" relfile="TestSharedProject/ViewModels/TagsListViewModel.cs" line="88" column="66" />
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/TaskListViewModel.cs" relfile="TestSharedProject/ViewModels/TaskListViewModel.cs" line="94" column="66" />
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/TaskListViewModel.cs" relfile="TestSharedProject/ViewModels/TaskListViewModel.cs" line="80" column="1" />
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/TagDetailViewModel.cs" relfile="TestSharedProject/ViewModels/TagDetailViewModel.cs" line="53" column="1" />
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/TaskDetailViewModel.cs" relfile="TestSharedProject/ViewModels/TaskDetailViewModel.cs" line="102" column="66" />
+      <Breakpoint file="/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/ViewModels/TaskListViewModel.cs" relfile="TestSharedProject/ViewModels/TaskListViewModel.cs" line="81" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TaskList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5F2BF833-A357-4CFE-9C6A-EACD112E1C17">

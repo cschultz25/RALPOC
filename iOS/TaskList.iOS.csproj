@@ -166,6 +166,12 @@
       <HintPath>..\packages\Xamarin.Auth.1.4.1.0\lib\Xamarin.iOS10\Xamarin.Auth.dll</HintPath>
     </Reference>
     <Reference Include="System.Json" />
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.13.9\lib\Xamarin.iOS10\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.Platform">
+      <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.13.9\lib\Xamarin.iOS10\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -178,6 +184,8 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Chapter3\" />
+    <Folder Include="Chapter2\" />
+    <Folder Include="Chapter2\Services\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -191,11 +199,12 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Chapter3\iOSPlatform.cs" />
+    <Compile Include="Chapter2\Services\iosLoginProvider.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestSharedProject\TaskList3.csproj">
-      <Project>{B94BE7AC-211E-44DA-9780-F4EE7F927FC9}</Project>
-      <Name>TaskList3</Name>
+    <ProjectReference Include="..\TaskList\Chapter2\TaskList2.csproj">
+      <Project>{165165BA-F435-4A0F-A357-779701A96A55}</Project>
+      <Name>TaskList2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

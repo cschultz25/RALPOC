@@ -23,18 +23,18 @@ namespace TaskList.ViewModels
             Title = "Task List";
 
             //RefreshCommand = new Command(async () => await Refresh());
-           // AddNewItemCommand = new Command(async () => await AddNewItem());
+            //AddNewItemCommand = new Command(async () => await AddNewItem());
             //LogoutCommand = new Command(async () => await Logout());
             //LoadMoreCommand = new Command<TodoItem>(async (TodoItem item) => await LoadMore(item));
 
             // Subscribe to events from the Task Detail Page
-           /* MessagingCenter.Subscribe<TaskDetailViewModel>(this, "ItemsChanged", async (sender) =>
-            {
-                await Refresh();
-            });
+            //MessagingCenter.Subscribe<TaskDetailViewModel>(this, "ItemsChanged", async (sender) =>
+            //{
+            //    await Refresh();
+            //});
 
             // Execute the refresh command
-            RefreshCommand.Execute(null);*/
+            RefreshCommand.Execute(null);
         }
 
         bool hasMoreItems = true;
@@ -121,7 +121,7 @@ namespace TaskList.ViewModels
 				await ExecuteRefreshCommand();
 			});
 		}
-/*
+		/*
         async Task LoadMore(TodoItem item)
         {
             if (IsBusy)
