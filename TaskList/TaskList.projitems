@@ -10,16 +10,15 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)TaskListPage.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\EntryPage.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\EntryPage.xaml.cs" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagDetail.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagDetail.xaml.cs" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagsList.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagsList.xaml.cs" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskDetail.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskDetail.xaml.cs" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskList.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskList.xaml.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter1\Pages\EntryPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter1\Pages\TaskDetail1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter1\Pages\TaskList1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)app.config" />
@@ -29,32 +28,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Chapter3\" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\BaseViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\ICloudService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\ICloudTable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\IPlatform.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\TableData.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Behaviors\BehaviorBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Behaviors\EventToCommandBehavior.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Converters\ItemVisibilityConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Helpers\AuthenticationDelegatingHandler.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Helpers\ObservableRangeCollection.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Helpers\ServiceLocator.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Models\AppServiceIdentity.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Models\Tag.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Models\TodoItem.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Services\AzureCloudService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Services\AzureCloudTable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\EntryPageViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TagDetailViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TagsListViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TaskDetailViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TaskListViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Locations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Abstractions\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Abstractions\ICoudService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Abstractions\ICoudTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Abstractions\TableData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Converters\ItemVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Models\TodoItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Services\AzureCloudService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Services\AzureCloudTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\ViewModels\EntryPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\ViewModels\TaskDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\ViewModels\TaskListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Pages\EntryPage1.xaml.cs">
+      <DependentUpon>EntryPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Pages\TaskDetail1.xaml.cs">
+      <DependentUpon>TaskDetail1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter1\Pages\TaskList1.xaml.cs">
+      <DependentUpon>TaskList1.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

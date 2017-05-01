@@ -47,7 +47,6 @@
     <Compile Include="Chapter3\Abstractions\ICloudTable.cs" />
     <Compile Include="Chapter3\Abstractions\IPlatform.cs" />
     <Compile Include="Chapter3\Abstractions\TableData.cs" />
-    <Compile Include="Chapter3\Behaviors\BehaviorBase.cs" />
     <Compile Include="Chapter3\Behaviors\EventToCommandBehavior.cs" />
     <Compile Include="Chapter3\Converters\ItemVisibilityConverter.cs" />
     <Compile Include="Chapter3\Helpers\AuthenticationDelegatingHandler.cs" />
@@ -80,6 +79,7 @@
     <Compile Include="Chapter3\ViewModels\TaskDetailViewModel.cs" />
     <Compile Include="Chapter3\ViewModels\TaskListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BehaviorBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Chapter3\Pages\TagDetail.xaml">
