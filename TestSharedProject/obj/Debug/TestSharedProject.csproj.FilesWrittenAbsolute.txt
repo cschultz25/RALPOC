@@ -1,0 +1,12 @@
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/System.Net.Http.Extensions.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/System.Net.Http.Primitives.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/Newtonsoft.Json.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/Microsoft.WindowsAzure.Mobile.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/SQLitePCLRaw.core.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/Xamarin.Forms.Core.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/cschultz/Source/AzureSyncWalkthrough/Backend/TestSharedProject/bin/Debug/Xamarin.Forms.Xaml.dll

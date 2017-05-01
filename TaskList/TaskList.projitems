@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D5CE4458-6CEB-4C92-B6D9-E4B6D418237A}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TaskList</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)TaskListPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\EntryPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\EntryPage.xaml.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagDetail.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagDetail.xaml.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagsList.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TagsList.xaml.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskDetail.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskDetail.xaml.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskList.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Chapter3\Pages\TaskList.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)app.config" />
+    <None Include="$(MSBuildThisFileDirectory)packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)TaskListPage.xaml.cs">
+      <DependentUpon>TaskListPage.xaml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Chapter3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\ICloudService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\ICloudTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\IPlatform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Abstractions\TableData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Behaviors\BehaviorBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Behaviors\EventToCommandBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Converters\ItemVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Helpers\AuthenticationDelegatingHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Helpers\ObservableRangeCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Helpers\ServiceLocator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Models\AppServiceIdentity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Models\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Models\TodoItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Services\AzureCloudService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Services\AzureCloudTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\EntryPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TagDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TagsListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TaskDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\ViewModels\TaskListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chapter3\Locations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>

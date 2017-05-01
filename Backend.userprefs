@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D50A18B6-550E-40F1-B4F7-4B930AAB7596}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSharedProject/Chapter3/Behaviors/BehaviorBase.cs">
+    <Files>
+      <File FileName="TaskList/App.cs" Line="1" Column="1" />
+      <File FileName="TaskList/Chapter3/Pages/TagsList.xaml.cs" Line="9" Column="13" />
+      <File FileName="TaskList/Chapter3/Pages/TaskDetail.xaml.cs" Line="10" Column="13" />
+      <File FileName="TaskList/Chapter3/ViewModels/TagsListViewModel.cs" Line="66" Column="71" />
+      <File FileName="TaskList/Chapter3/Pages/TagDetail.xaml.cs" Line="6" Column="3" />
+      <File FileName="TaskList/Chapter3/Pages/EntryPage.xaml.cs" Line="14" Column="1" />
+      <File FileName="TestSharedProject/Chapter3/Abstractions/ICloudService.cs" Line="5" Column="32" />
+      <File FileName="TestSharedProject/Chapter3/Behaviors/BehaviorBase.cs" Line="2" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TaskList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5F2BF833-A357-4CFE-9C6A-EACD112E1C17" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>TaskList2/TaskList2.shproj</String>
+    <String>Droid/TaskList2.Droid.csproj</String>
+    <String>iOS/TaskList2.iOS.csproj</String>
+    <String>test/test.shproj</String>
+    <String>Droid/test.Droid.csproj</String>
+    <String>iOS/test.iOS.csproj</String>
+  </DisabledProjects>
+</Properties>
